@@ -19,6 +19,8 @@ $ yarn install
 
 You should create `.env` file before start. Look into `.env.template`
 
+###### I added `.env` in repository specially for easy-start
+
 ## Running the app
 
 ### Docker
