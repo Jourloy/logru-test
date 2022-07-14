@@ -45,3 +45,22 @@ $ yarn start:prod
 Open `http://localhost:3000/api` for get swagger API doc
 
 ###### 3000 is your app port
+
+## Some graphics
+
+```mermaid
+stateDiagram-v2
+[*] --> Middleware
+Middleware --> Auth
+Auth --> User
+User --> Auth
+Auth --> [*]
+```
+```mermaid
+stateDiagram-v2
+[*] --> Middleware
+Middleware --> Guard
+Guard --> [*]
+Guard --> User
+User --> [*]
+```
