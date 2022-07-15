@@ -12,22 +12,7 @@ export class User {
 	password: string;
 
 	@Prop()
-	hash: string;
-
-	@Prop()
 	role: string;
-
-	@Prop()
-	scopes: string[];
-
-	@Prop()
-	refreshToken?: string;
-
-	@Prop()
-	twitchID?: string;
-
-	@Prop()
-	discordID?: string;
 }
 
 export const UserSchema = SchemaFactory.createForClass(User);
